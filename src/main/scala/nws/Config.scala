@@ -5,6 +5,7 @@ import java.io.{File, FileReader}
 import org.yaml.snakeyaml.Yaml
 
 class Config {
+  var controlPort = 9999
   var sendBufferSize = 2048
   var readBufferSize = 2048
   var writerIdleTime = 10
